@@ -10,3 +10,4 @@ C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\D
 C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.application
 C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.exe
 C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.pdb
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.csprojResolveAssemblyReference.cache

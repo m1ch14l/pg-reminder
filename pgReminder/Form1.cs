@@ -21,7 +21,6 @@ namespace pgReminder
         [DllImport("User32.dll")]
         public static extern Int32 SetForegroundWindow(int hWnd);
 
-
         public Form1()
         {
             InitializeComponent();
@@ -72,7 +71,6 @@ namespace pgReminder
                 if(row.Cells["c_enabled"].Value != null && alreadySeen == false) { 
                     String rowTime = row.Cells["c_time"].Value.ToString();
                     String curTime = DateTime.Now.ToString("HH:mm");
-                    textBox_input.Text = DateTime.Now.ToString() + "> " + rowTime + " - " + curTime;
                     if (rowTime.Equals(curTime))
                     {
                         showMessage();

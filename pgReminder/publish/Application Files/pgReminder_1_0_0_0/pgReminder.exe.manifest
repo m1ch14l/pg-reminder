@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="pgReminder.exe" version="1.0.0.0" publicKeyToken="ea30b04cafc3d201" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Alarm Clock-512.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="pgReminder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="pgReminder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pgReminder.exe" size="754144">
+      <assemblyIdentity name="pgReminder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pkIp6/4q/kn2aFeDlGho8Kq2vZOu5QubL4M09qqVA2A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Alarm Clock-512.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>88J00DEyZxZz+nc4kNEJmdc46zvqPeokbKTCFG/GKL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pgReminder.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-8SR6US6\helli" issuerKeyHash="ba8fee283669befba34da0363ee299d7dfc5cb18" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>idqe0YAO5uxxPGs+kFwCGs+FufMkisIjnCxb0yHXgSs=</DigestValue></Reference></SignedInfo><SignatureValue>iYvsn9RDlfpfoeRNHUPREx4L1HfmFdPpmFb3I4V2YuSLDjWjIzX744eKb0rEMytxryFVg0GHdEiOxs40Zbj2g9FThB/W4oYShspdwmfMxgrxx93X/UfEAnQLDWBl69gnvrjzRhTXJgjvYx+1JkAqiH2MC5zGvXpk26YC+3O9h1k=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xSPF14B0kG9JIrQmcq7s0dHp4vte0xQM9ajxz8dTM9dlKzlDhAA7NOK8TPHXl0sDJloDQqxbLoFzqt7vYrjDCEP7eRAy6m9Ct8LwEjJ5h0ZFiUuTlrahl/gIDWolRt3dHNlHX9DzRXil2CVHxDqqbKTq8otYU6jbiRoBpNP19Q0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2b81d721d35b2c9c23c28a24f3b985cf1a025c903e6b3c71ece60e80d19eda89" Description="" Url=""><as:assemblyIdentity name="pgReminder.exe" version="1.0.0.0" publicKeyToken="ea30b04cafc3d201" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-8SR6US6\helli</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yqX41/H2a0fKXSQv61dV/3SqT4WT8qP7PJ95fBJuUX4=</DigestValue></Reference></SignedInfo><SignatureValue>Q3ZRTj6t1d5jHKv9zbAxk8W9gzzi6rwrbVK9dHLKDZyOdDyh4OchZ2D2Jzso7vxt4hM7HLHkHplrnxDwuzQZBxZx8+CTBDbC8khO2fi7blF2KxUFS2Df1jlhzGaT1JNmnpO1FM7zN0hZkl70PRYmT6pZGfo+dYRRy/q7rGyVbxs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xSPF14B0kG9JIrQmcq7s0dHp4vte0xQM9ajxz8dTM9dlKzlDhAA7NOK8TPHXl0sDJloDQqxbLoFzqt7vYrjDCEP7eRAy6m9Ct8LwEjJ5h0ZFiUuTlrahl/gIDWolRt3dHNlHX9DzRXil2CVHxDqqbKTq8otYU6jbiRoBpNP19Q0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQV57F0B1dZ5NFxUNEfffziDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADgAUwBSADYAVQBTADYAXABoAGUAbABsAGkwHhcNMTUxMjExMTExMjExWhcNMTYxMjEwMTcxMjExWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADgAUwBSADYAVQBTADYAXABoAGUAbABsAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMUjxdeAdJBvSSK0JnKu7NHR6eL7XtMUDPWo8c/HUzPXZSs5Q4QAOzTivEzx15dLAyZaA0KsWy6Bc6re72K4wwhD+3kQMupvQrfC8BIyeYdGRYlLk5a2oZf4CA1qJUbd3RzZR1/Q80V4pdglR8Q6qmyk6vKLWFOo24kaAaTT9fUNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAEewytYuSVt8TJwEV9VIG+soQ2rlp53F4A5gPlpE5z7WmfgsYMNGWNj5A0xxdhCawWGTfiuZ+yEJljNG4AMgrOYHhlUNkryAWA7XT3hDwcn1zG3Wd6JgXCjmMPyEu2lpVV1U4mWFGluaawGib9HJKC7YkOhfrBxbUpcwhv71OZH8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

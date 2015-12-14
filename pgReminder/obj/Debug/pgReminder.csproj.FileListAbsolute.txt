@@ -1,0 +1,12 @@
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\bin\Debug\pgReminder.exe.config
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\bin\Debug\pgReminder.exe.manifest
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\bin\Debug\pgReminder.application
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\bin\Debug\pgReminder.exe
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\bin\Debug\pgReminder.pdb
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.Form1.resources
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.Properties.Resources.resources
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.csproj.GenerateResource.Cache
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.exe.manifest
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.application
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.exe
+C:\Users\helli\Documents\Visual Studio 2015\Projects\pgReminder\pgReminder\obj\Debug\pgReminder.pdb
